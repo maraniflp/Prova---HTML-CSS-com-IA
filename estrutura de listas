@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calendário </title>
+</head>
+<body>
+    
+<table border="1" style="border-collapse: collapse;">
+
+
+<thead> <b> Fevereiro </b> </thead>
+<tr>
+
+<th>Dom</th>
+<th>Seg</th>
+<th>Ter</th>
+<th>Qua</th>
+<th>Qui</th>
+<th>Sex</th>
+<th>Sáb</th>
+        
+</tr>
+
+<tr>
+<td> - </td>
+<td> - </td>
+<td> - </td>
+<td> -  </td>
+<td> - </td>
+<td> - </td>
+<td> 01 </td>
+        
+</tr>
+
+<tr>
+<td> 02 </td>
+<td>03</td>
+<td>04</td>
+<td>05</td>
+<td><b>06</b></td>
+<td>07</td>
+<td>08</td>
+        
+</tr>
+
+<tr>
+<td>09</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td><b>13</b></td>
+<td>14</td>
+<td>15</td>
+       
+</tr>
+
+<tr>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td><b>20</b></td>
+<td>21</td>
+<td>22</td>
+
+</tr>
+
+<tr>
+<td> 23</td>
+<td> 24 </td>
+<td> 25</td>
+<td> 26</td>
+<td> 27</td>
+<td> 28</td>
+<td> - </td>
+            
+</tr>
+
+</table>
+
+<p> <tfoot> <b>06 - Aula de HTML <br>13 - Aula de IA <br>20 - Aula de CSS </b> </tfoot></p>
+
+<table border="1" style="border-collapse: collapse;">
+
+<thead><b> Março </b></thead>
+
+<tr>
+<th>Dom</th>
+<th>Seg</th>
+<th>Ter</th>
+<th>Qua</th>
+<th>Qui</th>
+<th>Sex</th>
+<th>Sáb</th>
+        
+</tr>
+        
+<tr>
+<td> -  </td>
+<td> - </td>
+<td> -  </td>
+<td> - </td>
+<td> - </td>
+<td> - </td>
+<td> 01 </td>
+
+</tr>
+
+<tr>
+<td> 02 </td>
+<td> 03 </td>
+<td> <b>04 </b> </td>
+<td> <b>05 </b> </td>
+<td> 06 </td>
+<td> 07 </td>
+<td> 08 </td>
+        
+</tr>
+
+<tr>
+<td> 09 </td>
+<td> 10 </td>
+<td> 11 </td>
+<td> 12</td>
+<td> 13 </td>
+<td> 14 </td>
+<td> 15 </td>
+
+</tr>
+
+<tr>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+<td>22</td>
+        
+</tr>
+
+<tr>
+<td> 23</td>
+<td> 24</td>
+<td> 25</td>
+<td> 26 </td>
+<td> 27 </td>
+<td> 28 </td>
+<td> 29 </td>
+
+</tr>
+
+<tr>
+<td> 30 </td>
+<td> 31 </td>
+<td> - </td>
+<td> - </td>
+<td> - </td>
+<td> - </td>
+<td> - </td>
+</tr>
+    
+</table>
+<p><tfoot> <b>04 - Carnaval <br> 05 - Quarta-feira de Cinzas </b> </tfoot></p>
+    
+<table border="1" style="border-collapse: collapse;">
+
+
+<thead><b>Abril</b></thead> 
+
+<tr>
+<th>Dom</th>
+<th>Seg</th>
+<th>Ter</th>
+<th>Qua</th>
+<th>Qui</th>
+<th>Sex</th>
+<th>Sáb</th>
+        
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+
+</tr>
+
+<tr>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+        
+
+</tr>
+
+<tr>
+<td> 13 </td>
+<td> 14 </td>
+<td> 15 </td>
+<td> 16 </td>
+<td> 17 </td>
+<td> <b>18 </b> </td>
+<td> 19 </td>
+        
+</tr>
+
+<tr>
+
+<td> <b>20</b> </td>
+<td><b>21</b> </td>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+        
+</tr>
+
+<tr>
+<td>27</td>
+<td>28</td>
+<td>29</td>
+<td>30</td>
+<td> - </td>
+<td> - </td>
+<td> - </td>
+        
+</tr>
+
+</table>
+
+<p><tfoot> <b>18 - Sexta-feira Santa <br>20 - Páscoa <br>21 - Tiradentes </b> </tfoot></p>
+
+</body>
+</html>
