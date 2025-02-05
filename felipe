@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Curriculum </title>
 </head>
-
-<h1> Felipe Marani Silva </h1>
+<body>
+    <h1> Felipe Marani Silva </h1>
 
 <h2>Sobre mim: </h2>
 <p> Sou formado em Técnico em Administração pelo Sebrae/MG, estou cursando Programação Full Stack IA na escola Infinity School em Belo Horizonte. 
@@ -58,7 +58,5 @@
 
 </ul>
 
-<body>
-    
 </body>
 </html>
