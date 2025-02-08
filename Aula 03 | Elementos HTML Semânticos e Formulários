@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Cadastro Simples</title>
+  </head>
+  <body>
+    <h1>Formulário Simples</h1>
+    <p>Inserir abaixo as informações necessárias para Cadastro</p>
+
+    <hr />
+
+    <form>
+      <div style="margin-bottom: 16px">
+        <label for="Nome "> Nome: </label> <br />
+        <input type="text" id=" Nome" name=" Nome " />
+      </div>
+
+      <div style="margin-bottom: 16px">
+        <label for="E-mail"> E-mail </label> <br />
+        <input type="email" id=" E-mail " name=" E-mail  " />
+      </div>
+
+      <div style="margin-bottom: 16px">
+        <label for="Senha"> Senha </label> <br />
+        <input type="password" name="Senha " id="Senha " />
+      </div>
+
+      <div style="margin-bottom: 16px">
+        <label for="País"> País </label>
+
+        <select name="País " id=" País ">
+            <option value="Selecione"> Selecione </option>
+          <option value="Argentina">Argentina</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Colômbia">Colômbia</option>
+          <option value="Dinamarca">Dinamarca</option>
+          <option value="Equador">Equador</option>
+        </select>
+      </div>
+
+      <div style="margin-bottom: 16px">
+        <label for="Mensagem"> Mensagem </label> <br />
+        <textarea
+          name=" Mensagem"
+          id=" Mensagem "
+          rows="9"
+          style="resize: none"
+        >
+        </textarea>
+      </div>
+
+      <button type="submit">Enviar</button>
+
+      <button type="reset">Apagar</button>
+    </form>
+  </body>
+</html>
