@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test do meu primeiro site</title>
+  </head>
+
+  <link rel="stylesheet" href="testdesite.css" />
+
+  <center><h1>Loja ÉGOL</h1></center>
+
+  <center><p>Não é só futebol, vendemos uma paixão.</p></center>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="Início">
+        <center><h2>Não é só Futebol, aqui a variedade é infinita.</h2></center>
+        <center>
+          <form class="barra-pesquisa">
+            <input type="text" id="Pesquisa" name="Pesquisa" />
+            <button type="submit">Pesquisar</button>
+          </form>
+        </center>
+      </section>
+      <hr />
+
+      <section id="Times internacionais">
+        <h2>Real Madrid - Camisa 3</h2>
+
+        <ul>
+          <li class="produto">
+            <img src="real madrid 3.avif" alt="Real madrid 3" width="300" />
+
+            <p>
+              Elegância é sua identidade. Os monogramas "RMCF" em alto-relevo
+              que se repetem nesta camisa 3 do Real Madrid emprestam seu visual
+              diferenciado das letras usadas nas placas tradicionais das ruas de
+              Madri. Destacando-se no design clássico, o icônico Trefoil retorna
+              a uma camisa de jogo adidas após um longo intervalo
+            </p>
+
+            <span>399,90</span>
+            <button type="submit">Comprar</button>
+
+            <h2>Real Madrid - Camisa 2</h2>
+            <img src="camisa real madrid 2.avif" alt="Real madrid 2" width="300" />
+
+            <p>
+              Destacando a ascensão de uma nova geração do futebol. Criada para
+              complementar as habilidades brilhantes do Real Madrid, esta camisa
+              adidas do uniforme 2 se destaca com uma base laranja vibrante e um
+              design abstrato inspirado em estrelas. Os detalhes em azul-escuro
+              incluem o escudo do clube bordado. Nos bastidores, o tecido
+              AEROREADY que remove o suor manterá os torcedores no topo do jogo.
+            </p>
+
+            <span>399,90</span>
+            <button type="submit">Comprar</button>
+
+            <h2>Real Madrid - Camisa 1</h2>
+            <img src="camisa real madrid 1.avif" alt=" Real Madrid 1" width="300" />
+
+            <p>
+              Quando a adidas projetou o primeiro uniforme do Real Madrid, ela
+              se inspirou nas tradições de longa data da famosa cidade do clube.
+              Inspirada nos looks "chulapo" usados na San Isidro Fiesta anual de
+              Madrid, a padronagem pied-de-poule desta camisa de futebol
+              acrescenta um toque de estilo. Além do tecido AEROREADY que remove
+              o suor e um escudo bordado do clube, esta camisa é feita para os
+              torcedores.
+            </p>
+
+            <span>399,90</span>
+            <button type="submit">Comprar</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>Todos os direitos reservados &copy; Felipe Marani</footer>
+  </body>
+</html>
+
+
+____________________________________________________________________________________________________________________________
+CSS.
+
+body {
+  font-family: arial sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+H1,
+h2 {
+  color: #1e3a8a;
+}
+
+header {
+  background-color: #1e3a8a;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #eaecf1;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  background-color: #f97316;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
