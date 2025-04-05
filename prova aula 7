@@ -1,0 +1,88 @@
+HTLM
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Básica Responsiva</title>
+
+    <link rel="stylesheet" href="prova.css" />
+  </head>
+  <body>
+    <h1>Prova de HTML</h1>
+    <p>Este é um exemplo para uma página</p>
+
+    <h2>Media Query</h2>
+    <p>Ajuste de tamanhos das telas.</p>
+  </body>
+</html>
+
+=======================================================================================
+
+ARQUIVO CSS
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin: 1.125rem 0;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin: 0.9rem 0;
+  }
+
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    margin: 0.75rem 0;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
